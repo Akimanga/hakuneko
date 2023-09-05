@@ -1,0 +1,14 @@
+import WordPressMadara from './templates/WordPressMadara.mjs';
+
+export default class DianxiaTraducoes extends WordPressMadara {
+
+    constructor() {
+        super();
+        super.id = 'dianxiatraducoes';
+        super.label = 'Dianxia Traducoes';
+        this.tags = [ 'manga', 'portuguese' ];
+        this.url = 'https://dianxiatrads.com';
+
+        this.language = 'pt';
+    }
+}
